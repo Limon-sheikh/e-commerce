@@ -1,12 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router';
+import Header from '../Components/Header/Header';
 
 const RootLayout = () => {
     return (
         <div>
-            <h1>navber</h1>
+            <Header></Header>
             <Outlet></Outlet>
-            <footer>footer</footer>
+            <footer className=''>footer</footer>
         </div>
     );
 };
