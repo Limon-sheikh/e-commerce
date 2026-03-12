@@ -5,7 +5,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const MidHeader = () => {
     return (
-      <div className="py-2 border-b border-gray-200">
+      <div className="py-2">
         <div className="container mx-auto flex items-center justify-between px-24">
           <div>
             <img src={logo} alt="This is logo" className="w-16 md:w-22" />

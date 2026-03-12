@@ -6,9 +6,9 @@ import Navber from './Navber';
 const Header = () => {
     return (
         <div>
-            <TopHeader></TopHeader>
-            <MidHeader></MidHeader>
-            <Navber></Navber>
+            <TopHeader/>
+            <MidHeader/>
+            <Navber/>
         </div>
     );
 };
