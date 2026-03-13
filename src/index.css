@@ -8,3 +8,11 @@
 .prcolor{color: #5CAF90;}
 .bgprcolor{background-color: #5CAF90;}
 .ts{color: #4B5966; font-size: 12px;}
+
+.bg{
+    background-image: url(../src/assets/Image/HERO.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}

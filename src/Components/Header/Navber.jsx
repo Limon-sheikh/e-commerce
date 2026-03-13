@@ -10,15 +10,15 @@ const Navber = () => {
            <div className='container mx-auto px-24 '>
                 <div className='flex justify-between items-center'>
                     <div><Button icon={BiCategoryAlt} title='all category'/></div>
-                    <div>
+                    <nav>
                         <ul className='capitalize flex gap-10'>
-                            <NavLink to='/'>home</NavLink>
-                            <NavLink to='/shop'>shop now</NavLink>
-                            <NavLink to='/about'>about</NavLink>
-                            <NavLink to='/blog'>blog</NavLink>
-                            <NavLink to='/contact'>contact</NavLink>
+                            <NavLink to='/' className={({isActive})=> isActive? "prcolor" : ""}>home</NavLink>
+                            <NavLink to='/shop' className={({isActive})=> isActive? "prcolor" : ""}>shop now</NavLink>
+                            <NavLink to='/about' className={({isActive})=> isActive? "prcolor" : ""}>about</NavLink>
+                            <NavLink to='/blog' className={({isActive})=> isActive? "prcolor" : ""}>blog</NavLink>
+                            <NavLink to='/contact' className={({isActive})=> isActive? "prcolor" : ""}>contact</NavLink>
                         </ul>
-                    </div>
+                    </nav>
                     <div><Button icon={CiShoppingCart} className="text-2xl" title='shop now'/></div>
                 </div>
            </div>
