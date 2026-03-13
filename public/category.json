@@ -1,0 +1,81 @@
+
+[
+  {
+    "id": 1,
+    "name": "Men Fashion",
+    "slug": "men-fashion",
+    "description": "Latest fashion collection for men including shirts, pants and jackets.",
+    "icon": "FaTshirt",
+    "image": "../src/assets/category image/majid-akbar.jpg",
+    "banner": "/images/banners/men-banner.jpg",
+    "productCount": 120,
+    "isFeatured": true,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 2,
+    "name": "Girls Fashion",
+    "slug": "women-fashion",
+    "description": "Trendy and modern clothing for women.",
+    "icon": "FaFemale",
+    "image": "../src/assets/category image/istockphoto-1367180724-612x612.jpg",
+    "banner": "/images/banners/women-banner.jpg",
+    "productCount": 150,
+    "isFeatured": true,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 3,
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": "Smart gadgets and modern electronic devices.",
+    "icon": "FaLaptop",
+    "image": "../src/assets/category image/electronic.avif",
+    "banner": "/images/banners/electronics-banner.jpg",
+    "productCount": 95,
+    "isFeatured": false,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 4,
+    "name": "Home & Living",
+    "slug": "home-living",
+    "description": "Furniture, home decor and daily living products.",
+    "icon": "FaHome",
+    "image": "../src/assets/category image/feature.jpg",
+    "banner": "/images/banners/home-banner.jpg",
+    "productCount": 80,
+    "isFeatured": false,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 5,
+    "name": "Sports Items",
+    "slug": "sports",
+    "description": "Sports equipment and outdoor gear.",
+    "icon": "FaFootballBall",
+    "image": "../src/assets/category image/sports.avif",
+    "banner": "/images/banners/sports-banner.jpg",
+    "productCount": 60,
+    "isFeatured": false,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 6,
+    "name": "Beauty & Health",
+    "slug": "beauty-health",
+    "description": "Beauty products and health care essentials.",
+    "icon": "FaSpa",
+    "image": "../src/assets/category image/beauty.jpg",
+    "banner": "/images/banners/beauty-banner.jpg",
+    "productCount": 70,
+    "isFeatured": true,
+    "status": "active",
+    "createdAt": "2026-03-10"
+  }
+]

@@ -5,7 +5,7 @@ const Button = ({title, icon, className}) => {
     return (
         <div>
             <button className='flex items-center gap-2 capitalize bgprcolor text-white px-5 py-2 rounded-md cursor-pointer'>
-                <Icon className={className}/>
+                {Icon && <Icon className={className}/>}
                 {title}
             </button>
         </div>
