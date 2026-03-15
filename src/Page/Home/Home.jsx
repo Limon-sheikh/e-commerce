@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './HomeComponent/Hero';
 import Category from './HomeComponent/Category';
-import Product from './HomeComponent/Product';
+import Products from './HomeComponent/Products';
 
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <Hero/>
             <Category/>
-            <Product/>
+            <Products/>
         </div>
     );
 };
