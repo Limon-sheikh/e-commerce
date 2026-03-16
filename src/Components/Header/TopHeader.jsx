@@ -5,7 +5,7 @@ const TopHeader = () => {
   return (
     <div className="bg-[#f8f8f8] py-2">
         <div className="container mx-auto flex justify-between items-center ts px-24">
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 lg:min-w-[282px]">
                 <div className="flex items-center gap-1">
                     <MdLocalPhone />
                     <span>+8801711111111</span>
@@ -18,7 +18,7 @@ const TopHeader = () => {
             <div className="">
                 <p>World`s Fastest Online Shopping Destination</p>
             </div>
-            <div>
+            <div className="lg:min-w-[282px]">
                 <ul className="flex items-center capitalize gap-5">
                     <li>helps ?</li>
                     <li>Trac Order?</li>

@@ -2,7 +2,7 @@
 import Button from '../ShearComponent/Button';
 import { BiCategoryAlt } from "react-icons/bi";
 import { CiShoppingCart } from "react-icons/ci";
-import ListLinks from '../ShearComponent/ListLinks';
+import Search from '../ShearComponent/Search';
 
 const Navber = () => {
     return (
@@ -11,7 +11,7 @@ const Navber = () => {
                 <div className='flex justify-between items-center'>
                     <div><Button icon={BiCategoryAlt} title='all category'/></div>
                     <div>
-                        <ListLinks/>
+                        <Search/>
                     </div>
                     <div><Button icon={CiShoppingCart} className="text-2xl" title='shop now'/></div>
                 </div>

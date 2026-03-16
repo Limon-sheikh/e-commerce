@@ -1,9 +1,10 @@
-import React from 'react';
 
-const SectionHeding = ({title, subtitle, description}) => {
+
+const SectionHeding = ({title,subtitle,description}) => {
     return (
         <div>
-            section heding
+            <h1 className='text-4xl font-semibold'> {title} <span className='prcolor'> {subtitle} </span></h1>
+            <p>{description}</p>
         </div>
     );
 };

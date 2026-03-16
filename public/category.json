@@ -2,8 +2,8 @@
 [
   {
     "id": 1,
-    "name": "Men Fashion",
-    "slug": "men-fashion",
+    "name": "men",
+    "slug": "men",
     "description": "Latest fashion collection for men including shirts, pants and jackets.",
     "icon": "FaTshirt",
     "image": "../src/assets/category image/majid-akbar.jpg",
@@ -15,8 +15,8 @@
   },
   {
     "id": 2,
-    "name": "Girls Fashion",
-    "slug": "women-fashion",
+    "name": "women",
+    "slug": "women",
     "description": "Trendy and modern clothing for women.",
     "icon": "FaFemale",
     "image": "../src/assets/category image/istockphoto-1367180724-612x612.jpg",
@@ -28,7 +28,7 @@
   },
   {
     "id": 3,
-    "name": "Electronics",
+    "name": "watches",
     "slug": "electronics",
     "description": "Smart gadgets and modern electronic devices.",
     "icon": "FaLaptop",
@@ -41,8 +41,8 @@
   },
   {
     "id": 4,
-    "name": "Home & Living",
-    "slug": "home-living",
+    "name": "dresses",
+    "slug": "living",
     "description": "Furniture, home decor and daily living products.",
     "icon": "FaHome",
     "image": "../src/assets/category image/feature.jpg",
@@ -54,7 +54,7 @@
   },
   {
     "id": 5,
-    "name": "Sports Items",
+    "name": "glasses",
     "slug": "sports",
     "description": "Sports equipment and outdoor gear.",
     "icon": "FaFootballBall",
@@ -67,8 +67,8 @@
   },
   {
     "id": 6,
-    "name": "Beauty & Health",
-    "slug": "beauty-health",
+    "name": "cosmatics",
+    "slug": "beauty",
     "description": "Beauty products and health care essentials.",
     "icon": "FaSpa",
     "image": "../src/assets/category image/beauty.jpg",
