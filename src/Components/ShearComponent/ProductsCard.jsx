@@ -1,9 +1,9 @@
-import React from 'react';
 
-const ProductsCard = () => {
+
+const ProductsCard = ({product}) => {
     return (
         <div>
-            dfsdfdfd
+            <p>{product.name}</p>
         </div>
     );
 };

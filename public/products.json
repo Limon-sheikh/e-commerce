@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": 1,
+    "name": "iPhone 14 Pro",
+    "price": 1299,
+    "category": "mobile",
+    "image": "https://i.ibb.co/1fM3xkP/iphone14.jpg",
+    "rating": 4.8,
+    "brand": "Apple",
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": 999,
+    "category": "mobile",
+    "image": "https://i.ibb.co/0V8h5Qk/samsung.jpg",
+    "rating": 4.6,
+    "brand": "Samsung",
+    "stock": 20
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro M2",
+    "price": 1999,
+    "category": "laptop",
+    "image": "https://i.ibb.co/ZYW3VTp/macbook.jpg",
+    "rating": 4.9,
+    "brand": "Apple",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 13",
+    "price": 1499,
+    "category": "laptop",
+    "image": "https://i.ibb.co/9p3Cnk9/dell.jpg",
+    "rating": 4.7,
+    "brand": "Dell",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "name": "Apple Watch Series 8",
+    "price": 499,
+    "category": "watch",
+    "image": "https://i.ibb.co/Yy4YpLw/watch.jpg",
+    "rating": 4.5,
+    "brand": "Apple",
+    "stock": 25
+  },
+  {
+    "id": 6,
+    "name": "Sony WH-1000XM5",
+    "price": 399,
+    "category": "headphone",
+    "image": "https://i.ibb.co/7QpKsCX/headphone.jpg",
+    "rating": 4.7,
+    "brand": "Sony",
+    "stock": 30
+  },
+  {
+    "id": 7,
+    "name": "Logitech MX Master 3",
+    "price": 99,
+    "category": "accessories",
+    "image": "https://i.ibb.co/5cLDe8x/mouse.jpg",
+    "rating": 4.8,
+    "brand": "Logitech",
+    "stock": 50
+  },
+  {
+    "id": 8,
+    "name": "iPad Air",
+    "price": 799,
+    "category": "tablet",
+    "image": "https://i.ibb.co/2dL7V3L/ipad.jpg",
+    "rating": 4.6,
+    "brand": "Apple",
+    "stock": 18
+  }
+]

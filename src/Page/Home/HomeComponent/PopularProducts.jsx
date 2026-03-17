@@ -1,9 +1,19 @@
 
+import { useEffect, useState } from 'react';
 import SectionHeding from '../../../Components/ShearComponent/SectionHeding';
 import CategoryLIst from '../../../Components/ShearComponent/CategoryLIst';
 import ProductsCard from '../../../Components/ShearComponent/ProductsCard';
 
 const PopularProducts = () => {
+
+    const [products, setProducts] = useState([]);
+
+    useEffect(()=>{
+        fetch('/products.json')
+        .then(res => res.json())
+        .then(data => setProducts(data))
+    },[]);
+
 
     return (
         <div>
@@ -13,7 +23,7 @@ const PopularProducts = () => {
                     <CategoryLIst />
                 </div>
                 <div className='border'>
-                    <ProductsCard/>
+                    {products.map((product)=> <ProductsCard product={product}/>)}
                 </div>
             </div>
         </div>
